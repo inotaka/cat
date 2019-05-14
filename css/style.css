@@ -1,4 +1,7 @@
 @media screen and (min-width: 980px) {
+  .l-body {
+    margin: 0; }
+
   .l-header {
     display: flex;
     justify-content: space-between;
@@ -9,9 +12,10 @@
     .l-header #humberger {
       display: none; }
     .l-header ul {
-      display: block;
       display: flex;
-      color: #5F2201; }
+      color: #5F2201;
+      padding-left: 0;
+      list-style: none; }
     .l-header li {
       width: 38px;
       height: 18px;
@@ -60,7 +64,9 @@
       display: flex;
       justify-content: space-between;
       width: 804px;
-      margin: 50px auto; }
+      margin: 50px auto;
+      padding-left: 0;
+      list-style: none; }
     .p-about li {
       text-align: center; }
     .p-about div {
@@ -102,7 +108,9 @@
       width: 300px;
       height: 96px;
       margin: auto;
-      text-align: center; }
+      text-align: center;
+      padding-left: 0;
+      list-style: none; }
     .p-contact li:last-child {
       width: 100px;
       height: 48px;
@@ -128,11 +136,16 @@
     color: #FFF;
     line-height: 60px; } }
 @media screen and (max-width: 767px) {
+  .l-body {
+    margin: 0; }
+
   .l-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px; }
+    height: 60px;
+    padding-left: 0;
+    list-style: none; }
     .l-header img {
       width: 125px;
       margin-left: 15px; }
@@ -170,7 +183,9 @@
       top: 0;
       width: 375px;
       height: 812px;
-      background-color: #DDDDDD; }
+      background-color: #DDDDDD;
+      padding-left: 0;
+      list-style: none; }
     .l-header li:first-child {
       position: absolute;
       top: 161px;
@@ -201,6 +216,8 @@
     color: #5F2201;
     text-align: center; }
   .p-skill ul {
+    padding-left: 0;
+    list-style: none;
     text-align: center; }
   .p-skill img {
     width: 345px; }
@@ -223,6 +240,9 @@
       font-size: 20px;
       font-weight: bold;
       color: #5F2201; }
+    .p-about ul {
+      padding-left: 0;
+      list-style: none; }
     .p-about p {
       margin: 31px 0 50px;
       font-size: 15px; }
@@ -245,6 +265,9 @@
       color: #5F2201; }
     .p-contact img {
       margin: 40px 0 50px; }
+    .p-contact ul {
+      padding-left: 0;
+      list-style: none; }
     .p-contact li:first-child {
       margin-bottom: 30px;
       font-size: 15px; }
